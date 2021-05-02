@@ -8,9 +8,9 @@ function App({login}) {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="about" element={<About />}>
-        <Route path="services" element={<Services />} />
-        <Route path="history" element={<History />} />
-        <Route path="Location" element={<Location />} />
+          <Route path="services" element={<Services />} />
+          <Route path="history" element={<History />} />
+          <Route path="Location" element={<Location />} />
         </Route>
         <Route path="events" element={<Events />} />
         <Route path="contact" element={<Contact />} />
